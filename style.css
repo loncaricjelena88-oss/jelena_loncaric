@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*fontovi*/
+.gravitas-one-regular {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    background-color: #f1a4a4;
+    height:100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    height:20vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(230, 167, 247);
+    background-image: url(slike/nav.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 12vh;
+    border-bottom: 10px #850310 ridge;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #e5dfe3;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20pt;
+}
+
+
+.nav-links li a:hover {
+    color: #820310;
+    background-color: #e5dfe3aa;
+    border-radius: 6px 6px 6px 6px;
+    padding:6px;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15vh;
+}
+
+.div1{
+    width:40vw;
+    height:25vh;
+    border: 3px #850310 ridge;
+    border-radius: 10px;
+    padding:15px;
+}
+
+.div2{
+    width:20vw;
+    border: 3px #850310 ridge;
+    border-radius: 10px;
+    padding:20px;
+}
+
+.h1{
+    padding:6px;
+    font-family: "Merriweather", serif;
+    font-size: 35pt;
+}
+
+.h2{
+    padding:6px;
+    font-family: "Merriweather", serif;
+}
+
+img{
+    width:360px;
+    height:620px;
+    border: 3px #850310 ridge;
+}
+
+.main-m{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+
+.videi{
+     display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:15px;
+}
